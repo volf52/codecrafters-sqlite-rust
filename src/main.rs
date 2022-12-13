@@ -51,7 +51,7 @@ fn main() -> Result<()> {
             println!("Logs from your program will appear here!");
 
             // Uncomment this block to pass the first stage
-            // println!("number of tables: {}", schemas.len());
+            println!("number of tables: {}", schemas.len());
         }
         _ => bail!("Missing or invalid command passed: {}", command),
     }
